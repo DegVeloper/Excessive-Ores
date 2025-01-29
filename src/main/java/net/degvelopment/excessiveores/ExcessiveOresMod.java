@@ -1,6 +1,7 @@
 package net.degvelopment.excessiveores;
 
 import com.mojang.logging.LogUtils;
+import net.degvelopment.excessiveores.block.ModBlock;
 import net.degvelopment.excessiveores.item.ModCreativeModeTab;
 import net.degvelopment.excessiveores.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class ExcessiveOresMod
         ModCreativeModeTab.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

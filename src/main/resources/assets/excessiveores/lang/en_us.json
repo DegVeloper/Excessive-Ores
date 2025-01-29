@@ -2,5 +2,8 @@
   "item.excessiveores.raw_bronze": "Raw Bronze",
   "item.excessiveores.bronze_ingot": "Bronze Ingot",
 
+  "block.excessiveores.bronze_block": "Block of Bronze",
+  "block.excessiveores.raw_bronze_block": "Block of Raw Bronze",
+
   "creativetab.excessive_ores_tab": "Excessive Ores"
 }
