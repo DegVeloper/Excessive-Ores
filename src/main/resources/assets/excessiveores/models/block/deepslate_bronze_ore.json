@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "excessiveores:block/deepslate_bronze_ore"
-  }
-}

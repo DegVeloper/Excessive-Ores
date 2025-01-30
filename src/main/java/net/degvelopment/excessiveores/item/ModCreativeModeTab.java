@@ -1,7 +1,7 @@
 package net.degvelopment.excessiveores.item;
 
 import net.degvelopment.excessiveores.ExcessiveOresMod;
-import net.degvelopment.excessiveores.block.ModBlock;
+import net.degvelopment.excessiveores.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,10 +21,10 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.RAW_BRONZE.get());
                         pOutput.accept(ModItems.BRONZE_INGOT.get());
 
-                        pOutput.accept(ModBlock.RAW_BRONZE_BLOCK.get());
-                        pOutput.accept(ModBlock.BRONZE_BLOCK.get());
-                        pOutput.accept(ModBlock.BRONZE_ORE.get());
-                        pOutput.accept(ModBlock.DEEPSLATE_BRONZE_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_BRONZE_BLOCK.get());
+                        pOutput.accept(ModBlocks.BRONZE_BLOCK.get());
+                        pOutput.accept(ModBlocks.BRONZE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_BRONZE_ORE.get());
                     })
                     .build());
 
