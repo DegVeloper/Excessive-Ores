@@ -23,6 +23,8 @@ public class ModCreativeModeTab {
 
                         pOutput.accept(ModBlock.RAW_BRONZE_BLOCK.get());
                         pOutput.accept(ModBlock.BRONZE_BLOCK.get());
+                        pOutput.accept(ModBlock.BRONZE_ORE.get());
+                        pOutput.accept(ModBlock.DEEPSLATE_BRONZE_ORE.get());
                     })
                     .build());
 

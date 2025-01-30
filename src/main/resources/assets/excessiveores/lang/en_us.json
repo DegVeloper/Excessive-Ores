@@ -4,6 +4,8 @@
 
   "block.excessiveores.bronze_block": "Block of Bronze",
   "block.excessiveores.raw_bronze_block": "Block of Raw Bronze",
+  "block.excessiveores.bronze_ore": "Bronze Ore",
+  "block.excessiveores.deepslate_bronze_ore": "Deepslate Bronze Ore",
 
   "creativetab.excessive_ores_tab": "Excessive Ores"
 }

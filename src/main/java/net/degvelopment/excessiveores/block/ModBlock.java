@@ -23,6 +23,11 @@ public class ModBlock {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> RAW_BRONZE_BLOCK = registerBlock("raw_bronze_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK)));
+
+    public static final RegistryObject<Block> BRONZE_ORE = registerBlock("bronze_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)));
+    public static final RegistryObject<Block> DEEPSLATE_BRONZE_ORE = registerBlock("deepslate_bronze_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COPPER_ORE)));
     // ----------------------------------------------------------------------------------------------------- //
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
