@@ -18,15 +18,24 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword",
-            () -> new SwordItem(ModToolTiers.BRONZE, 4, -1.9f, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.BRONZE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.BRONZE, 4, -2.8f, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.BRONZE, 1, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe",
-            () -> new AxeItem(ModToolTiers.BRONZE, 7, -2.8f, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.BRONZE, 6, -3.1F, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel",
-            () -> new ShovelItem(ModToolTiers.BRONZE, 3.5f, -3, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.BRONZE, 1.5F, -3, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe",
-            () -> new HoeItem(ModToolTiers.BRONZE, 0, -1, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.BRONZE, -2, -1, new Item.Properties()));
+
+    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet",
+            () -> new ArmorItem(ModArmorMaterials.BRONZE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_CHESTPLATE = ITEMS.register("bronze_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.BRONZE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings",
+            () -> new ArmorItem(ModArmorMaterials.BRONZE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots",
+            () -> new ArmorItem(ModArmorMaterials.BRONZE, ArmorItem.Type.BOOTS, new Item.Properties()));
     // ----------------------------------------------------------------------------------------------------- //
 
     public static void register(IEventBus eventBus) {

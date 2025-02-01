@@ -8,6 +8,11 @@
   "item.excessiveores.bronze_shovel": "Bronze Shovel",
   "item.excessiveores.bronze_hoe": "Bronze Hoe",
 
+  "item.excessiveores.bronze_helmet": "Bronze Helmet",
+  "item.excessiveores.bronze_chestplate": "Bronze Chestplate",
+  "item.excessiveores.bronze_leggings": "Bronze Leggings",
+  "item.excessiveores.bronze_boots": "Bronze Boots",
+
   "block.excessiveores.bronze_block": "Block of Bronze",
   "block.excessiveores.raw_bronze_block": "Block of Raw Bronze",
   "block.excessiveores.bronze_ore": "Bronze Ore",

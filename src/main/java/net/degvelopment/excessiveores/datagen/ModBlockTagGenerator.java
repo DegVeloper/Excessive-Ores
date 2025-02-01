@@ -12,14 +12,13 @@ import org.jetbrains.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagGenerator extends BlockTagsProvider {
-
     public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, ExcessiveOresMod.MOD_ID, existingFileHelper);
     }
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        // --------------------------------------------------------------------------- //
+        // --------------------------------------------------------------------------- // Bronze Blocks
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.BRONZE_BLOCK.get(),
                         ModBlocks.RAW_BRONZE_BLOCK.get(),
