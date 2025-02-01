@@ -1,0 +1,3 @@
+// 1.20.1	2025-02-01T12:36:53.4264845	Tags for minecraft:block mod id excessiveores
+261b14be94e7204487380a0423db5cdc18e5cfea data/minecraft/tags/blocks/mineable/pickaxe.json
+261b14be94e7204487380a0423db5cdc18e5cfea data/minecraft/tags/blocks/needs_iron_tool.json

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "excessiveores:bronze_ingot"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "##",
+    "#$",
+    " $"
+  ],
+  "result": {
+    "item": "excessiveores:bronze_axe"
+  },
+  "show_notification": true
+}

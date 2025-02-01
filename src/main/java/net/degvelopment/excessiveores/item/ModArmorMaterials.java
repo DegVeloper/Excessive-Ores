@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    BRONZE("bronze", 18, new int[]{ 2, 6, 5, 2 }, 25,
+    BRONZE("bronze", 10, new int[]{ 2, 6, 5, 2 }, 25,
             SoundEvents.ARMOR_EQUIP_IRON, 0f, 0f, () -> Ingredient.of(ModItems.BRONZE_INGOT.get()));
 
     private final String name;

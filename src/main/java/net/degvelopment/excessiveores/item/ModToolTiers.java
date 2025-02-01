@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier BRONZE = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 235, 6.0F, 2.0F, 25,
+            new ForgeTier(2, 185, 6.0F, 2.0F, 25,
                     ModTags.Blocks.NEEDS_BRONZE_TOOL, () -> Ingredient.of(ModItems.BRONZE_INGOT.get())),
             new ResourceLocation(ExcessiveOresMod.MOD_ID, "bronze"), List.of(Tiers.IRON), List.of());
 }
