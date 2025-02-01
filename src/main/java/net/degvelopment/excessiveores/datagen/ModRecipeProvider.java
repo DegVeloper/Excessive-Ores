@@ -4,9 +4,12 @@ import net.degvelopment.excessiveores.block.ModBlocks;
 import net.degvelopment.excessiveores.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -31,6 +34,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("###")
                 .pattern("###")
                 .define('#', ModItems.BRONZE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_SWORD.get()) // Bronze Sword recipe
+                .pattern("#")
+                .pattern("#")
+                .pattern("$")
+                .define('#', ModItems.BRONZE_INGOT.get())
+                .define('$', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_PICKAXE.get()) // Bronze Pickaxe recipe
+                .pattern("###")
+                .pattern(" $ ")
+                .pattern(" $ ")
+                .define('#', ModItems.BRONZE_INGOT.get())
+                .define('$', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_AXE.get()) // Bronze Axe recipe
+                .pattern("##")
+                .pattern("#$")
+                .pattern(" $")
+                .define('#', ModItems.BRONZE_INGOT.get())
+                .define('$', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_SHOVEL.get()) // Bronze Shovel recipe
+                .pattern("#")
+                .pattern("$")
+                .pattern("$")
+                .define('#', ModItems.BRONZE_INGOT.get())
+                .define('$', Items.STICK)
+                .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BRONZE_HOE.get()) // Bronze Hoe recipe
+                .pattern("##")
+                .pattern(" $")
+                .pattern(" $")
+                .define('#', ModItems.BRONZE_INGOT.get())
+                .define('$', Items.STICK)
                 .unlockedBy(getHasName(ModItems.BRONZE_INGOT.get()), has(ModItems.BRONZE_INGOT.get()))
                 .save(pWriter);
 

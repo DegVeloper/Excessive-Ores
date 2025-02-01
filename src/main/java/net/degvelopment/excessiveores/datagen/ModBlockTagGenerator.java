@@ -25,7 +25,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.RAW_BRONZE_BLOCK.get(),
                         ModBlocks.BRONZE_ORE.get(),
                         ModBlocks.DEEPSLATE_BRONZE_ORE.get());
-        // --------------------------------------------------------------------------- //
+        // ---------------------------------------------------------------------------- //
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 // ---------------------------BRONZE--------------------------- //
                 .add(ModBlocks.BRONZE_BLOCK.get(),

@@ -21,6 +21,12 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.RAW_BRONZE.get());
                         pOutput.accept(ModItems.BRONZE_INGOT.get());
 
+                        pOutput.accept(ModItems.BRONZE_SWORD.get());
+                        pOutput.accept(ModItems.BRONZE_PICKAXE.get());
+                        pOutput.accept(ModItems.BRONZE_AXE.get());
+                        pOutput.accept(ModItems.BRONZE_SHOVEL.get());
+                        pOutput.accept(ModItems.BRONZE_HOE.get());
+
                         pOutput.accept(ModBlocks.RAW_BRONZE_BLOCK.get());
                         pOutput.accept(ModBlocks.BRONZE_BLOCK.get());
                         pOutput.accept(ModBlocks.BRONZE_ORE.get());

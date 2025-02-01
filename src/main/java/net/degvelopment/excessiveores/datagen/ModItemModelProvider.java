@@ -20,12 +20,24 @@ public class ModItemModelProvider extends ItemModelProvider {
         // ----------------------------------BRONZE----------------------------------- //
         simpleItem(ModItems.BRONZE_INGOT);
         simpleItem(ModItems.RAW_BRONZE);
+
+        handHeldItem(ModItems.BRONZE_SWORD);
+        handHeldItem(ModItems.BRONZE_PICKAXE);
+        handHeldItem(ModItems.BRONZE_AXE);
+        handHeldItem(ModItems.BRONZE_SHOVEL);
+        handHeldItem(ModItems.BRONZE_HOE);
         // --------------------------------------------------------------------------- //
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(ExcessiveOresMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handHeldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(ExcessiveOresMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

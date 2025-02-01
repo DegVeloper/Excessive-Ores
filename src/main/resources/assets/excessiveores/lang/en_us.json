@@ -2,6 +2,12 @@
   "item.excessiveores.raw_bronze": "Raw Bronze",
   "item.excessiveores.bronze_ingot": "Bronze Ingot",
 
+  "item.excessiveores.bronze_sword": "Bronze Sword",
+  "item.excessiveores.bronze_pickaxe": "Bronze Pickaxe",
+  "item.excessiveores.bronze_axe": "Bronze Axe",
+  "item.excessiveores.bronze_shovel": "Bronze Shovel",
+  "item.excessiveores.bronze_hoe": "Bronze Hoe",
+
   "block.excessiveores.bronze_block": "Block of Bronze",
   "block.excessiveores.raw_bronze_block": "Block of Raw Bronze",
   "block.excessiveores.bronze_ore": "Bronze Ore",
